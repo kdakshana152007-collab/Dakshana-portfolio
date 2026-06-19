@@ -1,0 +1,110 @@
+body {
+    background-color: azure;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 139, 0.808);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.lists {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.hero {
+    background-color: rgba(0, 139, 139, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+button {
+    background-color: rgba(0, 0, 255, 0.445);
+    height: 50px;
+}
+
+.imgright {
+    display: flex;
+    justify-content: left;
+}
+
+.imgleft {
+    display: flex;
+    justify-content: right;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-box {
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    border-bottom: 10px solid red;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 10px gray;
+    padding-top: 30px;
+}
+.album{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.contact-box{
+    width: 200px;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    padding: 30px;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
